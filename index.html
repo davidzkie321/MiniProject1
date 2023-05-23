@@ -80,7 +80,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg mb-5 d-block d-lg-none" id="navbar">
+    <nav class="navbar navbar-expand-lg d-block d-lg-none" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="sus_logo.PNG" alt="SUS logo" width="40px" class="img-fluid"
@@ -123,7 +123,33 @@
         </div>
       </div>
     </nav>
-    <div class="container contain">
+    <div class="d-block d-lg-none">
+      <div id="nav_carousel" class="pt-3">
+        <div
+        id="text-apparel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active" data-bs-target="#text-apparel">
+                <h5>EASY WORLDWIDE DELIVERY</h5>
+                <p>*minimum spends apply</p>
+            </div>
+            <div class="carousel-item text-center mt-3 mb-4" data-bs-target="#text-apparel">
+                <h5>SUS DESIGN and  1000+ brands</h5>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="container contain d-none d-lg-block">
       <div class="row align-items-center">
       <img src="models.jpeg" alt="men's and women's model">
       <div class="centered">
@@ -143,9 +169,27 @@
       </div>
     </div>
 
+    <div class="d-block d-lg-none">
+      <img src="model_mobile.jpg" alt="Group of models" class="img-fluid">
+      <div class="centered">
+        <h1 class="display-2 fw-bold"><span class="span_text">This is SUS</span></h1>
+        <p><span class="span_text" id="span_p_mobile">SUS DESIGN and 1000+ brands</span></p>
+        <div class="under_centered_mobile col-lg-1">
+          <a href="women'sCorner/women's_corner.html" class="hover_shop_wm">
+            <span class="span_text"><h5 class="" id="shop_w_mobile"><b>SHOP WOMEN</b></h5></span>
+          </a>
+        </div>
+        <div class="under_centered_2_mobile col-lg-1">
+          <a href="men'sCorner/men's_corner.html" class="hover_shop_wm">
+          <span class="span_text"><h5 class="" id="shop_m_mobile"><b>SHOP MEN</b></h5></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <!-- change default font color into another -->
     <!-- collapse the list when in mobile view -->
-    <footer class="footer_color">
+    <footer class="footer_color d-none d-lg-block">
       <div class="row bg-white">
       <div class="container text-center my-3">
         <a href="https://www.facebook.com/davidearl.cajes.7"><img src="facebook.png" alt="facebook" width="30px" class="mx-4"></a>
@@ -195,6 +239,11 @@
           </ul>
         </div>
       </div>
+    </div>
+  </footer>
+  <footer class="d-block d-lg-none">
+    <div id="footer_mobile" class="pt-2 pb-1">
+      <p>© 2023 SUS</p>
     </div>
   </footer>
   </body>
